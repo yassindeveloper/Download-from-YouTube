@@ -13,7 +13,7 @@ import time
 app = Flask(__name__)
 
 # مفتاح API ليوتيوب (يجب استبداله بمفتاحك الخاص)
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "your-api-key")
+YOUTUBE_API_KEY = os.getenv("AIzaSyC7QTZt8GoCzr5dumrJXLYGqv979O7s_Yo", "AIzaSyC7QTZt8GoCzr5dumrJXLYGqv979O7s_Yo")
 
 def fetch_playlist_transcripts(playlist_url: str, language: str = "en") -> dict:
     try:
